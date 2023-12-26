@@ -32,9 +32,9 @@
             this.txtSoyad = new System.Windows.Forms.TextBox();
             this.txtNumara = new System.Windows.Forms.TextBox();
             this.txtAd = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.no = new System.Windows.Forms.Label();
+            this.soyad = new System.Windows.Forms.Label();
+            this.ad = new System.Windows.Forms.Label();
             this.btnKaydet = new System.Windows.Forms.Button();
             this.ogrBilgi.SuspendLayout();
             this.SuspendLayout();
@@ -44,70 +44,70 @@
             this.ogrBilgi.Controls.Add(this.txtSoyad);
             this.ogrBilgi.Controls.Add(this.txtNumara);
             this.ogrBilgi.Controls.Add(this.txtAd);
-            this.ogrBilgi.Controls.Add(this.label3);
-            this.ogrBilgi.Controls.Add(this.label2);
-            this.ogrBilgi.Controls.Add(this.label1);
+            this.ogrBilgi.Controls.Add(this.no);
+            this.ogrBilgi.Controls.Add(this.soyad);
+            this.ogrBilgi.Controls.Add(this.ad);
             this.ogrBilgi.Location = new System.Drawing.Point(21, 23);
             this.ogrBilgi.Name = "ogrBilgi";
-            this.ogrBilgi.Size = new System.Drawing.Size(755, 278);
+            this.ogrBilgi.Size = new System.Drawing.Size(345, 153);
             this.ogrBilgi.TabIndex = 7;
             this.ogrBilgi.TabStop = false;
             this.ogrBilgi.Text = "Öğrenci Bilgileri";
             // 
             // txtSoyad
             // 
-            this.txtSoyad.Location = new System.Drawing.Point(281, 88);
+            this.txtSoyad.Location = new System.Drawing.Point(154, 60);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(111, 20);
-            this.txtSoyad.TabIndex = 5;
+            this.txtSoyad.TabIndex = 1;
             // 
             // txtNumara
             // 
-            this.txtNumara.Location = new System.Drawing.Point(281, 123);
+            this.txtNumara.Location = new System.Drawing.Point(154, 95);
             this.txtNumara.Name = "txtNumara";
             this.txtNumara.Size = new System.Drawing.Size(111, 20);
-            this.txtNumara.TabIndex = 4;
+            this.txtNumara.TabIndex = 2;
             // 
             // txtAd
             // 
-            this.txtAd.Location = new System.Drawing.Point(281, 56);
+            this.txtAd.Location = new System.Drawing.Point(154, 28);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(111, 20);
-            this.txtAd.TabIndex = 3;
+            this.txtAd.TabIndex = 0;
             // 
-            // label3
+            // no
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(158, 123);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(23, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "NO";
+            this.no.AutoSize = true;
+            this.no.Location = new System.Drawing.Point(31, 95);
+            this.no.Name = "no";
+            this.no.Size = new System.Drawing.Size(23, 13);
+            this.no.TabIndex = 2;
+            this.no.Text = "NO";
             // 
-            // label2
+            // soyad
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(158, 95);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "SOYAD";
+            this.soyad.AutoSize = true;
+            this.soyad.Location = new System.Drawing.Point(31, 67);
+            this.soyad.Name = "soyad";
+            this.soyad.Size = new System.Drawing.Size(44, 13);
+            this.soyad.TabIndex = 1;
+            this.soyad.Text = "SOYAD";
             // 
-            // label1
+            // ad
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(158, 64);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(22, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "AD";
+            this.ad.AutoSize = true;
+            this.ad.Location = new System.Drawing.Point(31, 36);
+            this.ad.Name = "ad";
+            this.ad.Size = new System.Drawing.Size(22, 13);
+            this.ad.TabIndex = 0;
+            this.ad.Text = "AD";
             // 
             // btnKaydet
             // 
-            this.btnKaydet.Location = new System.Drawing.Point(302, 323);
+            this.btnKaydet.Location = new System.Drawing.Point(175, 196);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(101, 33);
-            this.btnKaydet.TabIndex = 8;
+            this.btnKaydet.TabIndex = 3;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
@@ -116,7 +116,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(793, 362);
+            this.ClientSize = new System.Drawing.Size(409, 254);
             this.Controls.Add(this.ogrBilgi);
             this.Controls.Add(this.btnKaydet);
             this.Name = "frmOgrKayit";
@@ -133,9 +133,9 @@
         private System.Windows.Forms.TextBox txtSoyad;
         private System.Windows.Forms.TextBox txtNumara;
         private System.Windows.Forms.TextBox txtAd;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label no;
+        private System.Windows.Forms.Label soyad;
+        private System.Windows.Forms.Label ad;
         private System.Windows.Forms.Button btnKaydet;
     }
 }
